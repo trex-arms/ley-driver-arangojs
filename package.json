@@ -1,0 +1,29 @@
+{
+  "name": "ley-driver-arangojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trex-arms/ley-driver-arangojs.git"
+  },
+  "keywords": [
+    "ley",
+    "arango",
+    "arangodb",
+    "arangojs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trex-arms/ley-driver-arangojs/issues"
+  },
+  "homepage": "https://github.com/trex-arms/ley-driver-arangojs#readme",
+  "peerDependencies": {
+    "ley": "*",
+    "arangojs": ">=6"
+  }
+}
