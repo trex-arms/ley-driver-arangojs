@@ -2,8 +2,9 @@ An arangojs driver for [ley](https://github.com/lukeed/ley).
 
 Expects a ley config file shaped like:
 
-```
+```js
 module.exports = {
+	driver: require('ley-driver-arangojs'),
 	url,
 	databaseName,
 	auth: {
